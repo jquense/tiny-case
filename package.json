@@ -1,0 +1,12 @@
+{
+  "name": "tiny-case",
+  "version": "1.0.0",
+  "description": "Tiny Casing utils",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "author": "Jason Quense",
+  "license": "MIT",
+  "optionalDependencies": {
+    "type-fest": "^0.20.2"
+  }
+}
