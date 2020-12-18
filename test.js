@@ -8,6 +8,8 @@ CamelCase: {
     ['hi_there_1', 'hiThere1'],
     ['  hi_there  ', 'hiThere'],
     ['1ApplePlease', '1ApplePlease'],
+    ['CON_STAT', 'conStat'],
+    ['CaseStatus', 'caseStatus'],
   ].forEach(([input, expected]) => {
     assert.strictEqual(
       t.camelCase(input),

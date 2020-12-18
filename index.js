@@ -8,7 +8,12 @@ const join = (str, d) => words(str).join(d).toLowerCase()
 
 const camelCase = (str) =>
   words(str).reduce(
-    (acc, next) => `${acc}${!acc ? next : upperFirst(next)}`,
+    (acc, next) =>
+      `${acc}${
+        !acc
+          ? next.toLowerCase()
+          : next[0].toUpperCase() + next.slice(1).toLowerCase()
+      }`,
     '',
   )
 
