@@ -1,6 +1,6 @@
 {
   "name": "tiny-case",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tiny Casing utils",
   "main": "index.js",
   "repository": {
